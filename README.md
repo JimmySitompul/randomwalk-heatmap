@@ -14,7 +14,7 @@ The purpose of this model is to understand how desire paths emerge in a given en
 
 3. **Desire Path Calculation**: After all the agents have reached their destinations or completed a specific number of steps, the heatmap is analyzed to identify the desire paths. Cells with higher heatmap values indicate more frequent agent movement, suggesting a preference for those routes.
 
-4. **Reset and Repeat**: Once all the agents have reached their destinations, their positions are reset to the initial positions, and the desire path simulation process is repeated for 1 week (7 days) within the model.
+4. **Reset and Repeat**: Once all the agents have reached their destinations, their positions are reset to the initial positions, and the desire path simulation process is repeated for 100 days within the model.
 
 5. **Visualization**: The desire paths can be visualized using various techniques, such as color-coding the cells based on the heatmap values or drawing lines to connect cells with high heatmap values.
 
@@ -24,7 +24,7 @@ To use this model and simulate desire path creation:
 
 1. Install the required dependencies and libraries specified in the `requirements.txt` file.
 
-2. Run the model script, which will initiate the desire path simulation for the specified duration (e.g., 1 week).
+2. Run the model script, which will initiate the desire path simulation for the specified duration (e.g., 100 days).
 
 3. Analyze the output, such as the heatmap data, to identify the most preferred desire paths within the environment.
 
